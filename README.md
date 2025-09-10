@@ -51,5 +51,5 @@ Esto significa:
 ---
 
 ## 👨‍💻 Créditos
-Proyecto desarrollado por **Francisco Pinto** — Ingeniero en Informática y Profesor.  
-Colaboración interdisciplinaria con kinesiólogo, terapeuta ocupacional y estudiantes del **Liceo Bicentenario de San Nicolás**.
+Proyecto desarrollado por **Francisco Pinto** — Ingeniero en Informática y Profesor - franciscoandresp@gmail.com   
+Colaboración interdisciplinaria con kinesiólogo - Victor Gallegos, terapeuta ocupacional - Isaías Uro y estudiantes del **Liceo Bicentenario de Excelencia Polivalente San Nicolás**.
