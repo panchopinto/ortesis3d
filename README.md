@@ -2,7 +2,12 @@
 
 Este repositorio contiene el código del sitio **Órtesis3D**, proyecto educativo del Liceo Bicentenario de San Nicolás.  
 El sitio presenta la iniciativa de diseño y fabricación de una órtesis 3D inclusiva.  Desarrollado por el Ingeniero en Informatica Francisco
-Desarrollado por el Ingeniero en Informatica Francisco Pinto franciscoandresp@gmail.com
+Desarrollado por:
+Francisco Pinto-Ingeniero en Informatica
+junto a 
+Víctor Gallegos — Kinesiólogo
+Isaías Uro — Terapeuta Ocupacional
+
 ---
 
 ## 🔐 Medidas de protección aplicadas
