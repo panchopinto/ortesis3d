@@ -9,25 +9,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <link rel="stylesheet" href="css/styles.css"/>
-<link rel="icon" href="img/favicon.svg" type="image/svg+xml"/>
 
+<!-- Favicons (igual que en index) -->
+<link rel="icon" href="img/favicon_1.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="img/favicon_1.png">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 <body>
+
 <header class="topbar" role="banner">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <div class="brand">
-    <span class="logo" aria-hidden="true">🦾</span>
+    <!-- Logo igual al index -->
+    <img src="img/favicon_1.svg" alt="Logo Órtesis3D" class="logo-img"/>
     <a class="brand-name" href="index.html" aria-label="Órtesis3D inicio">Órtesis<span>3D</span></a>
   </div>
-  <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
-<nav aria-label="Principal" id="primary-nav">
+
+  <!-- Menú hamburguesa (responsive) -->
+  <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+
+  <nav aria-label="Principal" id="primary-nav">
     <ul class="nav">
-      <li><a href="index.html"><i class="fa-solid fa-house icon-home icon-home"></i>Inicio</a></li>
-      <li><a href="about.html" class="active"><i class="fa-solid fa-heart-pulse icon-proyecto icon-proyecto"></i>Proyecto</a></li>
-      <li><a href="gallery.html"><i class="fa-solid fa-images icon-galeria icon-galeria"></i>Galería</a></li>
-      <li><a href="contact.html"><i class="fa-solid fa-paper-plane icon-contacto icon-contacto"></i>Contacto</a></li>
+      <li><a href="index.html"><i class="fa-solid fa-house icon-home"></i>Inicio</a></li>
+      <li><a href="about.html" class="active"><i class="fa-solid fa-heart-pulse icon-proyecto"></i>Proyecto</a></li>
+      <li><a href="gallery.html"><i class="fa-solid fa-images icon-galeria"></i>Galería</a></li>
+      <li><a href="contact.html"><i class="fa-solid fa-paper-plane icon-contacto"></i>Contacto</a></li>
     </ul>
   </nav>
+
   <div class="cta">
     <a class="btn-grad btn-call" href="tel:+56920027992" aria-label="Llamar por teléfono">
       <i class="fa-solid fa-phone-volume"></i><span>+56 9 2002 7992</span>
@@ -43,18 +54,28 @@
 
   <section class="grid two">
     <article class="card reveal">
-      <h2><i class="fa-solid fa-person-walking-with-cane icon-grad"></i> ¿Qué es una órtesis?</h2>
+      <h2>
+        <i class="fa-solid fa-person-walking-with-cane" style="color:#2E86FF;"></i>
+        ¿Qué es una órtesis?
+      </h2>
       <p>Es un dispositivo de asistencia que estabiliza, alinea o mejora las funciones del cuerpo. En nuestro caso, se diseñó para permitir que la estudiante <strong>Poleth</strong> pueda entrenar su postura y marcha con seguridad.</p>
     </article>
+
     <article class="card reveal">
-      <h2><i class="fa-solid fa-cubes-stacked icon-grad"></i> ¿Cómo la hicimos?</h2>
+      <h2>
+        <i class="fa-solid fa-cubes-stacked" style="color:#00C389;"></i>
+        ¿Cómo la hicimos?
+      </h2>
       <p>Utilizamos <strong>impresión 3D</strong>, diseño iterativo y pruebas guiadas por un equipo interdisciplinario. Los estudiantes participan activamente en el proceso, aprendiendo sobre diseño, biomecánica y responsabilidad social.</p>
     </article>
   </section>
 
   <section class="grid two">
     <article class="card reveal">
-      <h2><i class="fa-solid fa-users icon-grad"></i> Equipo</h2>
+      <h2>
+        <i class="fa-solid fa-users" style="color:#FF3B3B;"></i>
+        Equipo
+      </h2>
       <ul class="list">
         <li><strong>Francisco Pinto</strong> — Ingeniero en Informática y Profesor</li>
         <li><strong>Víctor Gallegos</strong> — Kinesiólogo</li>
@@ -62,17 +83,25 @@
         <li><strong>Estudiantes Ortix 3D</strong>: <strong>Bárbara Calzadilla</strong> (4°AQ), <strong>Matías Campaña</strong> (4°AQ), <strong>Julieta Cornejo</strong> (4°AQ), <strong>Martina San Martín</strong> (4°AQ), <strong>Felipe Aravena</strong> (3°M), <strong>Bastián Cifuentes</strong> (3°M), <strong>Ricardo Contreras</strong> (3°M), <strong>Mayling Olivares</strong> (3°M) y <strong>Vincenzo Verri</strong> (3°M)</li>
       </ul>
     </article>
+
     <article class="card reveal">
-      <h2><i class="fa-solid fa-bullseye icon-grad"></i> Impacto</h2>
+      <h2>
+        <i class="fa-solid fa-bullseye" style="color:#FF9500;"></i>
+        Impacto
+      </h2>
       <p>La órtesis mejora la autonomía de la estudiante y genera un efecto positivo en su familia y comunidad educativa. También inspira a otros establecimientos a crear soluciones accesibles con tecnología local.</p>
     </article>
   </section>
 
   <section class="info card reveal">
-    <h2><i class="fa-solid fa-shield-heart icon-grad"></i> Enfoque ético</h2>
+    <h2>
+      <i class="fa-solid fa-shield-heart" style="color:#EAF2FF;"></i>
+      Enfoque ético
+    </h2>
     <p>Respetamos la <strong>dignidad</strong> y <strong>privacidad</strong> de las personas. Las imágenes y relatos se comparten con autorización de la familia y del establecimiento educacional.</p>
   </section>
 </main>
+
 <footer class="site-footer" role="contentinfo">
   <div class="grid">
     <div>
@@ -97,7 +126,7 @@
   </div>
   <div class="legal">© <span id="year"></span> Órtesis3D — Todos los derechos reservados.</div>
 </footer>
-<script src="js/main.js" defer></script>
 
+<script src="js/main.js" defer></script>
 </body>
 </html>
