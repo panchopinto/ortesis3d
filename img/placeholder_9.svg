@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <linearGradient id="g9" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00C389"/>
+      <stop offset="100%" stop-color="#2E86FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="#0B1220"/>
+  <rect x="40" y="40" width="880" height="560" rx="20" fill="url(#g9)" opacity="0.25"/>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="200" cy="320" r="80"/>
+    <rect x="320" y="260" width="320" height="120" rx="20"/>
+    <circle cx="720" cy="340" r="60"/>
+  </g>
+  <text x="60" y="100" fill="#ffffff" font-family="Montserrat" font-size="36" font-weight="700">Reemplaza por tu foto (9)</text>
+</svg>
