@@ -83,3 +83,22 @@ p{color:var(--muted);line-height:1.7}
 svg text{font-weight:600}
 
 /* Favicon placeholder */
+
+
+/* 🎨 Íconos de colores personalizados en toda la navegación */
+.icon-home { color: #2E86FF; }       /* Azul brillante */
+.icon-proyecto { color: #FF3B3B; }   /* Rojo intenso */
+.icon-galeria { color: #00C389; }    /* Verde vivo */
+.icon-contacto { color: #FF9500; }   /* Naranja */
+
+
+/* Estado activo en la navegación */
+.nav a.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.nav a.active i {
+  filter: drop-shadow(0 0 6px currentColor);
+}
