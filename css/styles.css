@@ -21,9 +21,20 @@ p{color:var(--muted);line-height:1.7}
 
 .topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:linear-gradient(90deg,#0b1220 0%,#0e182b 100%);border-bottom:1px solid rgba(255,255,255,.06);backdrop-filter:saturate(120%) blur(6px)}
 .brand{display:flex;align-items:center;gap:.6rem}
-.brand .logo{font-size:24px}
+/* (opcional) .brand .logo era para el emoji; puedes dejarlo o quitarlo */
+/* .brand .logo{font-size:24px} */
 .brand-name{font-weight:800;letter-spacing:.2px}
 .brand-name span{background:linear-gradient(90deg,var(--grad1),var(--grad2));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ✅ Logo como imagen SVG */
+.logo-img{
+  width:28px;
+  height:28px;
+  margin-right:8px;
+  vertical-align:middle;
+  border-radius:8px; /* por si usas PNG; en SVG no afecta */
+}
+
 .nav{display:flex;gap:10px;list-style:none;margin:0;padding:0}
 .nav a{display:inline-flex;align-items:center;gap:.5rem;padding:10px 12px;border-radius:12px}
 .nav a:hover{background:rgba(255,255,255,.06)}
@@ -37,7 +48,9 @@ p{color:var(--muted);line-height:1.7}
 .tag{display:inline-block;font-size:14px;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.12);margin-bottom:8px;color:var(--muted)}
 .hero-lead{font-size:18px;margin:12px 0 18px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:10px}
-.hero-image svg{width:100%;height:auto;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+
+/* ✅ Antes estilabas .hero-image svg; ahora usas <img> */
+.hero-image img{width:100%;height:auto;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
 
 .btn-grad{display:inline-flex;align-items:center;gap:.6rem;padding:12px 16px;border-radius:14px;background:linear-gradient(135deg,var(--grad1),var(--grad2));color:#08111f;font-weight:700;box-shadow:0 10px 20px rgba(0,195,137,.15);transition:transform .15s ease}
 .btn-grad:hover{transform:translateY(-1px)}
@@ -82,15 +95,11 @@ p{color:var(--muted);line-height:1.7}
 /* Placeholder images */
 svg text{font-weight:600}
 
-/* Favicon placeholder */
-
-
 /* 🎨 Íconos de colores personalizados en toda la navegación */
 .icon-home { color: #2E86FF; }       /* Azul brillante */
 .icon-proyecto { color: #FF3B3B; }   /* Rojo intenso */
 .icon-galeria { color: #00C389; }    /* Verde vivo */
 .icon-contacto { color: #FF9500; }   /* Naranja */
-
 
 /* Estado activo en la navegación */
 .nav a.active {
@@ -98,11 +107,9 @@ svg text{font-weight:600}
   text-decoration: underline;
   text-underline-offset: 6px;
 }
-
 .nav a.active i {
   filter: drop-shadow(0 0 6px currentColor);
 }
-
 
 /* ===================== */
 /* Responsive Navigation */
