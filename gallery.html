@@ -9,25 +9,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <link rel="stylesheet" href="css/styles.css"/>
-<link rel="icon" href="img/favicon.svg" type="image/svg+xml"/>
 
+<!-- Favicons (igual que en index y about) -->
+<link rel="icon" href="img/favicon_1.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="img/favicon_1.png">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 <body>
 <header class="topbar" role="banner">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <div class="brand">
-    <span class="logo" aria-hidden="true">🦾</span>
+    <!-- Logo actualizado -->
+    <img src="img/favicon_1.svg" alt="Logo Órtesis3D" class="logo-img"/>
     <a class="brand-name" href="index.html" aria-label="Órtesis3D inicio">Órtesis<span>3D</span></a>
   </div>
-  <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
-<nav aria-label="Principal" id="primary-nav">
+
+  <!-- Menú hamburguesa -->
+  <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+
+  <nav aria-label="Principal" id="primary-nav">
     <ul class="nav">
-      <li><a href="index.html"><i class="fa-solid fa-house icon-home icon-home"></i>Inicio</a></li>
-      <li><a href="about.html"><i class="fa-solid fa-heart-pulse icon-proyecto icon-proyecto"></i>Proyecto</a></li>
-      <li><a href="gallery.html" class="active"><i class="fa-solid fa-images icon-galeria icon-galeria"></i>Galería</a></li>
-      <li><a href="contact.html"><i class="fa-solid fa-paper-plane icon-contacto icon-contacto"></i>Contacto</a></li>
+      <li><a href="index.html"><i class="fa-solid fa-house icon-home"></i>Inicio</a></li>
+      <li><a href="about.html"><i class="fa-solid fa-heart-pulse icon-proyecto"></i>Proyecto</a></li>
+      <li><a href="gallery.html" class="active"><i class="fa-solid fa-images icon-galeria"></i>Galería</a></li>
+      <li><a href="contact.html"><i class="fa-solid fa-paper-plane icon-contacto"></i>Contacto</a></li>
     </ul>
   </nav>
+
   <div class="cta">
     <a class="btn-grad btn-call" href="tel:+56920027992" aria-label="Llamar por teléfono">
       <i class="fa-solid fa-phone-volume"></i><span>+56 9 2002 7992</span>
@@ -116,9 +126,9 @@
       <img src="img/IMG_2686.jpg" alt="Img 2686"/>
       <figcaption>Proceso de desarrollo e implementación-Fase 1. </figcaption>
     </figure>
-
   </section>
 </main>
+
 <footer class="site-footer" role="contentinfo">
   <div class="grid">
     <div>
@@ -143,7 +153,7 @@
   </div>
   <div class="legal">© <span id="year"></span> Órtesis3D — Todos los derechos reservados.</div>
 </footer>
-<script src="js/main.js" defer></script>
 
+<script src="js/main.js" defer></script>
 </body>
 </html>
